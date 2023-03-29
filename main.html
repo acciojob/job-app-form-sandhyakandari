@@ -9,23 +9,25 @@
 <body>
    <form method="get" action="">
 	   <label for="name">name</label>
-   <input type="text" id="name" >
+   <input type="text" id="name"  required><br>
 	   <lable for="Email">Email</lable>
-	   <input type="email" id="email">
-	   <lable for="gender"> gender</lable>
+	   <input type="email" id="email" required><br>
+	   <lable for="gender" required> gender : </lable>
+	   <lable for="Male"> Male</lable>
 	   <input type="radio" name="gender"  value="Male" id="male">
-	   <input type="radio" name="gender" value="Female" id="female">
-	   <lable for="laptop" >Laptop Brands</lable>
+	   <lable for="Female"> Female</lable>
+	   <input type="radio" name="gender"  id="female"><br>
+	   <lable for="laptop" >Laptop Brands-</lable>
 	<lable for="Apple" >Apple</lable>
 	   <input type="checkbox" id="laptop" value="Apple" name="Laptop Brands">
     		<lable for="Asus" >Asus</lable>
 	   <input type="checkbox" id="laptop" value="Asus" name="Laptop Brands">
     		<lable for="HP" >HP</lable>
-	   <input type="checkbox" id="laptop" value="HP" name="Laptop Brands">
-    	<label for="age">Age</label><input type="number" value="age" name="age" id="age">
-	   <label for="dob">DOB</label><input type="date" value="dob" id="dob">
-	   <label for="password" >Password</label><input type="password" id="password" name="password">
-		<button type="button">Submit</button>
+	   <input type="checkbox" id="laptop" value="HP" name="Laptop Brands"><br>
+    	<label for="age">Age</label><input type="number"  name="age" id="age" required><br>
+	   <label for="dob">DOB</label><input type="date" value="dob" id="dob" required><br>
+	   <label for="password" >Password</label><input type="password" id="password" name="password" required>
+		<br><button type="button">Submit</button>
 			
 			
 			<!-- the entire body must be written by student -->
